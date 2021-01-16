@@ -17,11 +17,8 @@ constructor(x,y,radius){
 display(){
 
     var pos = this.body.position;
-    var angle = this.body.angle;
 
     push()
-    translate(pos);
-    rotate(angle);
     ellipseMode(RADIUS);
     strokeWeight(4);
     stroke("yellow");
